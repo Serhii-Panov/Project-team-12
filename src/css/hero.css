@@ -1,0 +1,95 @@
+/* Mobile-First*/
+.hero {
+    position: relative;
+    overflow: hidden;   
+}
+.hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero-container {
+  padding: 48px 16px;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+}
+
+.hero-paragraph {
+    margin-bottom: 24px;  
+    font-weight: 370;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Стилізація кнопок */
+
+.hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.anchor{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 100px;
+}
+
+.anchor-link {
+background-color: #C2D9FC;
+}
+
+.anchor-link-secondary {
+  background-color: rgba(13, 11, 10, 0.05);
+  
+}
+
+/* --- Для планшетів (від 768px до 1335px) --- */
+@media screen and (min-width: 768px) and (max-width: 1335px) {
+  .hero-container {
+    padding: 0 32px;
+  }
+  .hero-title {
+    font-size: 36px;
+  }
+  .hero-paragraph {
+    font-size: 18px;
+  }
+  .anchor-link a {
+    font-size: 18px;
+    padding: 14px 28px;
+  }
+}
+
+/* --- Для десктопів (від 1336px і більше) --- */
+@media screen and (min-width: 1336px) {
+  /* Контейнер використовується для обмеження контенту, як в index.html; 
+     але сам background займав всю ширину завдяки hero-img */
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .hero-title {
+    font-size: 48px;
+  }
+  .hero-paragraph {
+    font-size: 20px;
+  }
+  .anchor-link a {
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+}
