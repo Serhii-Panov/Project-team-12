@@ -1,3 +1,5 @@
+@import url('reset.css');
+
 .team {
   background-color: #dfebeb;
   padding: 64px 0;
@@ -8,6 +10,7 @@
 }
 .team-text-top {
   margin-bottom: 12px;
+  margin-top: 16px;
   color: #0d0b0a;
   font-size: 16px;
   font-weight: 600;
@@ -23,7 +26,7 @@
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
-  font-family: 'Corben';
+  font-family: 'Carbin';
 }
 .team-text {
   margin-bottom: 48px;
@@ -58,6 +61,7 @@
   line-height: 1.6;
   color: #0d0b0a;
   font-family: 'Sarabun';
+  margin-top: 20px;
 }
 .team-list-icons {
   list-style: none;
@@ -71,9 +75,6 @@
   color: #0d0b0a;
 }
 
-.team-card-content {
-  padding: 20px 0;
-}
 .team-text-name {
   margin-bottom: 20px;
   color: #0d0b0a;
@@ -116,12 +117,10 @@
   .team-item {
     width: calc((100% - 24px) / 2);
   }
-  .team-card-content {
-    padding: 24px 0;
-    max-width: 421.33px;
-  }
+
   .team-subtitle {
     font-size: 22px;
+    margin-top: 24px;
   }
   .team-title {
     font-size: 52px;
