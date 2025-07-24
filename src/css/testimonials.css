@@ -35,7 +35,6 @@
   letter-spacing: 0.5px;
   text-align: center;
   color: var(--Color-Scheme-4-Text, #0d0b0a);
-  margin: 0;
 }
 
 .testimonials-subtitle {
@@ -61,8 +60,8 @@
 
 .testimonials-list-item {
   background: var(--Color-Scheme-2-Foreground, #dfebeb);
-  padding: 24px 16px;
-  border-radius: 12px;
+  padding: 12px;
+  border-radius: 24px;
   text-align: center;
   box-sizing: border-box;
   width: 100%;
@@ -88,7 +87,6 @@
   font-size: 22px;
   line-height: 160%;
   margin-bottom: 24px;
-  margin-top: 32px;
 }
 .testimonials-avatar {
   display: flex;
