@@ -1,6 +1,5 @@
 .footer {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding: 48px 16px;
   background-color: #dfebeb;
 }
 .footer-wrapper {
@@ -17,6 +16,8 @@
   background-color: #f8fbfe;
 }
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
 }
 .footer-logo-icon {
 }
