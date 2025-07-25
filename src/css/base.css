@@ -1,6 +1,11 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: 'Sarabun', sans-serif, 'Corben' sans-serif;
+  font-family: 'Sarabun', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #0d0b0a;
+  background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -8,7 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 body {
   display: flex;
   flex-direction: column;
