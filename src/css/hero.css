@@ -2,6 +2,7 @@
 .hero {
   position: relative;
   overflow: hidden;
+  background-color: #F2FAFA;
 }
 
 .hero-img {
@@ -11,12 +12,13 @@
 }
 
 .hero-container {
+  font-family: 'Cabin', sans-serif;
   padding: 48px 16px;
 }
 
 .hero-title {
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 44px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -24,7 +26,7 @@
 
 .hero-paragraph {
   margin-bottom: 24px;
-  font-weight: 370;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -90,7 +92,7 @@
   }
 
   .hero-title {
-    width: 644px;
+    width: 50%;
     font-weight: 400;
     font-size: 72px;
     margin-bottom: 8px;
@@ -98,7 +100,7 @@
 
   .hero-paragraph {
     width: 600px;
-    margin-top: 10px;
+    padding-top: 8px;
     margin-bottom: 32px;
     font-size: 18px;
   }
