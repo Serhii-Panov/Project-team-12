@@ -1,4 +1,4 @@
-/* ======= Mobile First ======= */
+/* Mobile First */
 .testimonials {
   background: var(--Color-Scheme-3-Background, #f2fafa);
   justify-content: center;
@@ -119,7 +119,7 @@
   text-align: center;
 }
 
-/* ======= Tablet (≥768px) ======= */
+/*Tablet (≥768px)*/
 @media screen and (min-width: 768px) {
   .testimonials-container {
     max-width: 768px;
@@ -182,7 +182,7 @@
   }
 }
 
-/* ======= Desktop (≥1336px) ======= */
+/*Desktop (≥1336px)*/
 @media screen and (min-width: 1336px) {
   .testimonials {
     padding-top: 112px;
