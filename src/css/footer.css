@@ -37,6 +37,35 @@
   height: 42px;
   background-color: rgba(13, 11, 10, 0.05);
 }
+.text-valid {
+  display: none;
+  color: green;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.text-invalid {
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.footer-subscribe-form-input.error {
+  border-color: red;
+  color: red;
+}
+
+.footer-subscribe-form-input.success {
+  border-color: green;
+  color: green;
+}
+
+.footer-subscribe-form-input.error::placeholder {
+  color: red;
+}
+
+.footer-subscribe-form-input.success::placeholder {
+  color: green;
+}
 .footer-subscribe-form-btn {
   display: flex;
   align-items: center;
