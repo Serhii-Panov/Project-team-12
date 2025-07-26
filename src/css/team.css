@@ -3,14 +3,12 @@
 .team {
   background-color: #dfebeb;
   padding: 64px 0;
-}
-.team .container {
   padding-left: 16px;
   padding-right: 16px;
 }
 .team-text-top {
   margin-bottom: 12px;
- 
+
   color: #0d0b0a;
   font-size: 16px;
   font-weight: 600;
@@ -94,12 +92,10 @@
   font-family: 'Sarabun';
 }
 @media only screen and (min-width: 768px) {
-  .team .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .team {
     padding: 40px 0;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .team-text {
     margin-bottom: 40px;
@@ -142,13 +138,12 @@
   .team-item {
     width: calc((100% - 48px) / 3);
   }
-  .team .container {
+
+  .team {
+    padding: 40px 0;
     padding-left: 64px;
     padding-right: 64px;
     justify-content: center;
-  }
-  .team {
-    padding: 40px 0;
   }
 
   .team-list {
