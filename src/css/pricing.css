@@ -150,7 +150,7 @@
 @media screen and (min-width: 768px) and (max-width: 1335.98px) {
   .pricing-card {
     padding: 16px;
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .pricing-card:last-child {
