@@ -2,9 +2,7 @@
 
 .team {
   background-color: #dfebeb;
-  padding: 64px 0;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 64px 16px;
 }
 .team-text-top {
   margin-bottom: 12px;
@@ -93,9 +91,7 @@
 }
 @media only screen and (min-width: 768px) {
   .team {
-    padding: 40px 0;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 40px 32px;
   }
   .team-text {
     margin-bottom: 40px;
@@ -140,9 +136,7 @@
   }
 
   .team {
-    padding: 40px 0;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding: 112px 64px;
     justify-content: center;
   }
 
