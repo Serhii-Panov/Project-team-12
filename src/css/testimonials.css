@@ -1,24 +1,21 @@
-/* ======= Mobile First ======= */
+/* Mobile First */
 .testimonials {
   background: var(--Color-Scheme-3-Background, #f2fafa);
-  justify-content: center;
-  display: flex;
   align-items: center;
 }
 
-.testimonials-container {
+.testimonials.container {
   max-width: 375px;
-  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  text-align: center;
+  padding: 64px 16px;
   box-sizing: border-box;
 }
 .section-title {
   width: 311px;
   height: 111px;
-  margin: 64px auto 24px;
+  margin: 0px auto 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,7 +32,6 @@
   letter-spacing: 0.5px;
   text-align: center;
   color: var(--Color-Scheme-4-Text, #0d0b0a);
-  margin: 0;
 }
 
 .testimonials-subtitle {
@@ -61,8 +57,8 @@
 
 .testimonials-list-item {
   background: var(--Color-Scheme-2-Foreground, #dfebeb);
-  padding: 24px 16px;
-  border-radius: 12px;
+  padding: 12px;
+  border-radius: 24px;
   text-align: center;
   box-sizing: border-box;
   width: 100%;
@@ -87,8 +83,6 @@
   font-family: 'Sarabun', sans-serif;
   font-size: 22px;
   line-height: 160%;
-  margin-bottom: 24px;
-  margin-top: 32px;
 }
 .testimonials-avatar {
   display: flex;
@@ -109,7 +103,6 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 160%;
-  margin-bottom: 4px;
   text-align: center;
 }
 
@@ -121,14 +114,13 @@
   text-align: center;
 }
 
-/* ======= Tablet (≥768px) ======= */
+/*Tablet (≥768px)*/
 @media screen and (min-width: 768px) {
-  .testimonials-container {
+  .testimonials.container {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 40px 32px;
     box-sizing: border-box;
   }
   .section-title {
@@ -139,7 +131,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
     text-align: center;
   }
   .testimonials-title {
@@ -158,8 +150,6 @@
     gap: 24px;
     margin: 0 auto;
     max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
     box-sizing: border-box;
   }
 
@@ -184,22 +174,18 @@
   }
 }
 
-/* ======= Desktop (≥1336px) ======= */
+/*Desktop (≥1336px)*/
 @media screen and (min-width: 1336px) {
-  .testimonials {
-    padding-top: 112px;
-    padding-bottom: 112px;
-  }
-  .testimonials-container {
+  .testimonials.container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0;
+    padding: 112px 64px;
     box-sizing: border-box;
   }
   .section-title {
     width: 768px;
     height: auto;
-    margin: 112px auto 24px;
+    margin: 0 auto 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
