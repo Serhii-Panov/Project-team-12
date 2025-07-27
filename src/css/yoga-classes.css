@@ -3,6 +3,7 @@
   background-color: #dfebeb;
   padding-bottom: 64px;
   padding-top: 64px;
+  margin: 0 auto;
 }
 
 .yoga-container {
@@ -237,8 +238,6 @@
 
 @media only screen and (min-width: 1336px) {
   .yoga-classes {
-    width: 1440px;
-    height: 1044px;
     padding-bottom: 112px;
     padding-top: 112px;
   }
