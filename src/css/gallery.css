@@ -14,14 +14,12 @@
 
 @media screen and (min-width: 1336px) {
     .gallery {
-        padding: 112px 32px;
+        padding: 112px 64px;
     }
 }
 
 .gallery_wrap {
     width: 100%;
-    padding: 0 16px;
-    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -30,6 +28,8 @@
 @media screen and (min-width: 1336px) {
     .gallery_wrap {
         max-width: 768px;
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
@@ -65,6 +65,12 @@
     font-family: "Sarabun",
         sans-serif;
     
+}
+
+@media screen and (min-width: 768px) {
+    .gallery_text {
+        padding-bottom: 80px;
+    }
 }
 
 @media screen and (min-width: 1336px) {
