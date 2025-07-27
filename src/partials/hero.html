@@ -1,27 +1,40 @@
 <section class="hero" id="hero">
+  <picture>
+    <source
+      media="(min-width:1336px)"
+      srcset="../img/hero-img-desk-min.jpg 1x, /img/hero-img-desk@2x-min.jpg 2x"
+    />
 
-    <picture>
-        <source media="(min-width:1336px)" srcset="../img/hero-img-desk-min.jpg 1x,
-        ../img/hero-img-desk@2x-min.jpg 2x">
+    <source
+      media="(min-width:768px)"
+      srcset="../img/hero-img-tab-min.jpg 1x, /img/hero-img-tab@2x-min.jpg 2x"
+    />
 
-        <source media="(min-width:768px)" srcset="../img/hero-img-tab-min.jpg 1x,
-        ../img/hero-img-tab@2x-min.jpg 2x">
+    <source
+      media="(max-width:767px)"
+      srcset="../img/hero-img-mob-min.jpg 1x, /img/hero-img-mob@2x-min.jpg 2x"
+    />
 
-        <source media="(max-width:767px)" srcset="../img/hero-img-mob-min.jpg 1x,
-        ../img/hero-img-mob@2x-min.jpg 2x">
+    <img src="/img/hero-img-desk-min.jpg" class="hero-img" alt="hero-banner" />
+  </picture>
 
-        <img src="../img/hero-img-desk-min.jpg" class="hero-img" alt="hero-banner">
-    </picture>
-
-    <div class="hero-container container">
-        <h1 class="hero-title">Transform Your Life with Our Yoga Clases</h1>
-        <div class="hero-content">
-            <p class="hero-paragraph">Discover the harmony of mind and body through our expertly designed yoga programs.
-                Join a community dedicated to wellness and personal growth.</p>
-            <ul class="hero-list">
-                <li><a href="#pricing" class="anchor anchor-link">Join Now</a></li>
-                <li><a href="#mainpage-section-gallery" class="anchor anchor-link-secondary">Learn More</a></li>
-            </ul>
-        </div>
+  <div class="hero-container container">
+    <h1 class="hero-title">Transform Your Life with Our Yoga Clases</h1>
+    <div class="hero-content">
+      <p class="hero-paragraph">
+        Discover the harmony of mind and body through our expertly designed yoga
+        programs. Join a community dedicated to wellness and personal growth.
+      </p>
+      <ul class="hero-list">
+        <li><a href="#pricing" class="anchor anchor-link">Join Now</a></li>
+        <li>
+          <a
+            href="#mainpage-section-gallery"
+            class="anchor anchor-link-secondary"
+            >Learn More</a
+          >
+        </li>
+      </ul>
     </div>
+  </div>
 </section>
