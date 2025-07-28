@@ -1,0 +1,119 @@
+.gallery {
+    background-color: #f2fafa;
+    padding: 64px 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .gallery {
+        margin: 0 auto;
+        padding: 40px 32px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .gallery {
+        padding: 112px 64px;
+    }
+}
+
+.gallery_wrap {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 1336px) {
+    .gallery_wrap {
+        max-width: 768px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.gallery_menu {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Cabin",
+        sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .gallery_menu {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .gallery_menu {
+        font-size: 52px;
+    }
+}
+
+.gallery_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    padding-bottom: 48px;
+    font-family: "Sarabun",
+        sans-serif;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .gallery_text {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .gallery_text {
+        font-weight: 500;
+    }
+}
+
+.gallery_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+
+    max-width: 1440px;
+    padding: 0 40px;
+}
+
+
+
+
+.gallery_item {
+    width: calc((100% - 24px) / 2);
+    max-width: calc((100% - 24px) / 2);
+}
+
+@media screen and (min-width: 768px) {
+    .gallery_item {
+        width: calc((100% - 24px) / 2);
+        max-width: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .gallery_item {
+        position: relative;
+        width: calc((100% - 48px) / 3);
+    }
+}
+
+.gallery_image {
+    border-radius: 16px;
+}

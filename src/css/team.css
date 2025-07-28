@@ -1,0 +1,142 @@
+.team {
+  background-color: #dfebeb;
+  padding: 64px 16px;
+}
+.team-text-top {
+  margin-bottom: 12px;
+
+  color: #0d0b0a;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Sarabun';
+}
+.team-title {
+  margin-bottom: 20px;
+  color: #0d0b0a;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  font-family: 'Carbin';
+}
+.team-text {
+  margin-bottom: 48px;
+  color: #0d0b0a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  font-family: 'Sarabun';
+}
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  list-style: none;
+  margin: auto;
+  align-items: center;
+}
+.team-item {
+  background-color: #dfebeb;
+}
+.team-image {
+  border-radius: 16px;
+}
+
+.team-subtitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #0d0b0a;
+  font-family: 'Sarabun';
+  margin-top: 20px;
+}
+.team-list-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #0d0b0a;
+}
+
+.team-text-name {
+  margin-bottom: 20px;
+  color: #0d0b0a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  font-family: 'Sarabun';
+}
+.team-text-p {
+  margin-bottom: 20px;
+  color: #0d0b0a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  font-family: 'Sarabun';
+}
+@media only screen and (min-width: 768px) {
+  .team {
+    padding: 40px 32px;
+  }
+  .team-text {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+  }
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .team-subtitle {
+    font-size: 22px;
+    margin-top: 24px;
+  }
+  .team-title {
+    font-size: 52px;
+    margin-bottom: 24px;
+  }
+  .team-text-name {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .team-text-p {
+    margin-bottom: 24px;
+  }
+  .team-text-top {
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .team-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .team {
+    padding: 112px 64px;
+    justify-content: center;
+  }
+
+  .team-list {
+    gap: 64px 24px;
+  }
+}
