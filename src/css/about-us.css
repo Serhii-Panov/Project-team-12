@@ -1,0 +1,149 @@
+.about {
+  background-color: #dfebeb;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-head {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.about-title {
+  font-family: 'Cabin' sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 1%;
+}
+
+.about-list {
+  width: 343px;
+  gap: 48px;
+  width: 343;
+  height: 776;
+  opacity: 1;
+}
+
+.about-subtitle {
+  font-family: 'Cabin' sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 1%;
+}
+
+.about-text {
+  font-family: 'Sarabun' sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.join-link {
+  display: block;
+  width: 313px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  left: 24px;
+  padding: 12px 24px;
+  background-color: #c2d9fc;
+  color: #0d0b0a;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 24px;
+}
+
+.join-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 64px 0;
+    background-color: #f2fafa;
+  }
+
+  .about-text {
+    font-size: 18px;
+    width: 340;
+    height: 104;
+  }
+
+  .join-mobile {
+    display: none;
+  }
+
+  .about-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 24px;
+    width: 768px;
+  }
+
+  .about-item {
+    flex: 1 1 calc((100% - 24px) / 2);
+    box-sizing: border-box;
+  }
+
+  .join-desktop {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 14px 28px;
+    font-size: 16px;
+    background-color: #c2d9fc;
+    color: #0d0b0a;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    max-width: 160px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .about {
+    padding: 112px 0;
+  }
+
+  .about-title {
+    font-size: 52px;
+    text-align: center;
+  }
+
+  .about-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0;
+    list-style: none;
+    width: 1312px;
+    height: 206px;
+  }
+
+  .join-desktop {
+    margin-top: 80px;
+  }
+
+  .about-item {
+    flex-basis: calc((100% - 72px) / 4);
+    width: 310px;
+    height: 206px;
+  }
+
+  .about-subtitle {
+    font-size: 28px;
+  }
+}
