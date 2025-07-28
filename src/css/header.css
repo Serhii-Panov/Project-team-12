@@ -4,6 +4,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 100;
+  align-items: center;
 }
 
 .header-container {
@@ -11,7 +12,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  min-height: 56px;
+  flex-direction: row;
+ 
 }
 
 .header-button-menu {
@@ -231,7 +233,6 @@
   }
   .header-container {
     padding: 0 40px;
-    min-height: 72px;
   }
   .header-nav {
     display: flex;
@@ -246,9 +247,8 @@
   }
   .header-logo {
     position: absolute;
-    transform: translateX(-50);
-    margin: 0;
     left: 50%;
+    bottom: 25%;
   }
   /* Navbar */
   .modal-backdrop {
@@ -264,5 +264,6 @@
   }
   .header-btm-nav {
     display: flex;
+    align-self: center;
   }
 }
