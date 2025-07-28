@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/Project-team-12/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Project-team-12/assets/index-CsHedeuu.css">
+    <link rel="stylesheet" crossorigin href="/Project-team-12/assets/index-2BrlBiWM.css">
   </head>
   <body>
     <header class="header">
@@ -65,9 +65,12 @@
           </svg>
         </button>
 
-        <svg class="header-logo" width="84" height="36">
-          <use href="/Project-team-12/assets/icons-DqnOo8G0.svg#icon-logo"></use>
-        </svg>
+        <a href="/index.html" class="header-logo-link">
+          <svg class="header-logo" width="84" height="36">
+            <use href="/Project-team-12/assets/icons-DqnOo8G0.svg#icon-logo"></use>
+          </svg>
+        </a>
+
         <div>
           <a href="#pricing" class="my-button"
             >Join<span class="my-button-span">Now</span>
@@ -99,7 +102,7 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      <div class="modal-overlay">
+      <div class="modal-overlay" data-modal="1">
   <div class="modal">
     <button data-menu-close class="close-btn">×</button>
     <h2 class="modal-title">Join Now!</h2>
@@ -141,7 +144,7 @@
   </div>
 </div>
 
-<div class="modal-overlay">
+<div class="modal-overlay" data-modal="8">
   <div class="modal">
     <button data-menu-close class="close-btn">×</button>
     <h2 class="modal-title">Join Now!</h2>
@@ -183,7 +186,7 @@
   </div>
 </div>
 
-<div class="modal-overlay">
+<div class="modal-overlay" data-modal="12">
   <div class="modal">
     <button data-menu-close class="close-btn">×</button>
     <h2 class="modal-title">Join Now!</h2>
@@ -992,7 +995,14 @@
             <span class="pricing-card-content">Community support group</span>
           </li>
         </ul>
-        <button class="button-join" type="button" data-menu-open>Join</button>
+        <button
+          class="button-join"
+          type="button"
+          data-menu-open
+          data-package="1"
+        >
+          Join
+        </button>
       </li>
 
       <li class="pricing-card">
@@ -1034,7 +1044,14 @@
             <span class="pricing-card-content">Community support group</span>
           </li>
         </ul>
-        <button class="button-join" type="button" data-menu-open>Join</button>
+        <button
+          class="button-join"
+          type="button"
+          data-menu-open
+          data-package="8"
+        >
+          Join
+        </button>
       </li>
       <li class="pricing-card">
         <h3 class="pricing-card-title">12 Sessions Package</h3>
@@ -1097,7 +1114,14 @@
             <span class="pricing-card-content">Community support group</span>
           </li>
         </ul>
-        <button class="button-join" type="button" data-menu-open>Join</button>
+        <button
+          class="button-join"
+          type="button"
+          data-menu-open
+          data-package="12"
+        >
+          Join
+        </button>
       </li>
     </ul>
   </div>
@@ -1215,6 +1239,5 @@
 </footer>
 
 
-    <script src="./js/modal.js"></script>
   </body>
 </html>
