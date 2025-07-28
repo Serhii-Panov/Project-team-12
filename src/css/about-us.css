@@ -1,0 +1,89 @@
+.about-us {
+  background-color: #dfebeb;
+  padding: 64px 0;
+}
+.about-us-title {
+  font-family: 'Cabin';
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-us-text {
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.about-us-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+.about-us-subtitle {
+  font-family: 'Cabin';
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-us-anchor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  background: #c2d9fc;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .about-us {
+    padding: 40px 0;
+    background-color: #f2fafa;
+  }
+  .about-us-title {
+    margin-bottom: 24px;
+  }
+  .about-us-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .about-us-benefits {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 24px;
+  }
+  .about-us-benefits-list-item {
+    flex: 1 1 calc((100% - 24px) / 2);
+    box-sizing: border-box;
+  }
+  .about-us-anchor {
+    width: 110px;
+    margin: 0 auto;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1440px) {
+  .about-us {
+    padding: 112px 0;
+  }
+  .about-us-title {
+    font-size: 52px;
+  }
+  .about-us-benefits {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .about-us-subtitle {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+}
