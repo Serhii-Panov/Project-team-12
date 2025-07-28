@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 1214px;
+  min-height: auto;
+  padding: 64px 16px;
 }
 
 .about-head {
@@ -54,7 +54,6 @@
   display: block;
   width: 313px;
   margin: 0 auto;
-  position: relative;
   top: 10px;
   left: 24px;
   padding: 12px 24px;
