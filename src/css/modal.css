@@ -128,7 +128,7 @@ form {
     padding: 64px 16px 112px 16px;
     width: 375px;
     height: 852px;
-    border-radius: none;
+    border-radius: 0;
   }
 
   .modal-title {
