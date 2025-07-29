@@ -2,6 +2,7 @@
 .testimonials {
   background: var(--Color-Scheme-3-Background, #f2fafa);
   align-items: center;
+  padding: 64px 0;
 }
 
 .testimonials.container {
@@ -116,6 +117,9 @@
 
 /*Tablet (≥768px)*/
 @media screen and (min-width: 768px) {
+  .testimonials {
+    padding: 40px 0;
+  }
   .testimonials.container {
     max-width: 768px;
     margin-left: auto;
