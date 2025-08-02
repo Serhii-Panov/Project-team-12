@@ -5,17 +5,7 @@
   padding: 64px 0;
 }
 
-.testimonials.container {
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding: 64px 16px;
-  box-sizing: border-box;
-}
 .section-title {
-  width: 311px;
-  height: 111px;
   margin: 0px auto 24px;
   display: flex;
   flex-direction: column;
