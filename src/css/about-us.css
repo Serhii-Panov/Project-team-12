@@ -32,7 +32,7 @@
 }
 
 .about-item {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .about-subtitle {
@@ -53,7 +53,7 @@
 
 .join-link {
   display: block;
-  width: 313px;
+  width: 100%;
   margin: 0 auto;
   top: 10px;
   left: 24px;
